@@ -1,0 +1,18 @@
+#README:
+
+#Name: MAWT_MainCode 
+
+#Published in : MAWTROLL
+
+#Description : 'The main code for the empirical section. In this part, we run 
+#                a network model,high-dimension quantile regression based on
+#                the LASSO technic (hereafter, HQR-LASSO),for tail risk using
+#                optimal rolling window method with MAWT algorithm'
+
+# 
+#Keywords : quantile regression,dimension reduction, tail risk, optimal rolling window method
+
+#See Also : myFUN_rq_lasso,myFUN_roll_lasso, rq_ws_lasso,rq_lasso,roll_ws_lasso, roll_lasso, MAWT.mean, vare,Netden
+#Author : Xingmin Zhang
+
+#Datafile : BANK RETURN AND MACRO CAPM.csv, which includes 20 firms (banks and insurances), fama-french five factors, and 3 macro state variables. 
