@@ -102,7 +102,7 @@
   tau = 0.1;# the tail quantile
 
  #2.3. solve the optimal rolling window size
-  weidj = seq(as.integer (max(1.5*(n)^(2/3),20)),as.integer(min(3*(n)^(2/3),n-1)),by = 1);#here, refer to Inoue et al (2016)
+  weidj = seq(as.integer (max(1.5*(n)^(2/3),30)),as.integer(min(3*(n)^(2/3),n-1)),by = 1);#here, refer to Inoue et al (2016)
   widths = data.frame (weidj);
   ww =length(weidj);
   s = 1;# the roll forward width each time 
