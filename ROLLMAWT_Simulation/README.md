@@ -7,7 +7,7 @@ Published in: MAWTROLL
 
 Description: 'The main code for the simulation section. In this part, we simulate four data
 generate processing,replicating 200 times. We use MAWT algorithm to calculate the solution of
-discrete bi-objective problems,that is, MSE and heterogeneity.'
+discrete bi-objective problems,that is, MSE and heterogeneity. The main code file is 'MAWT_Method.R'.'
 
 Keywords: 'simulation, MAWT algorithm, MSE (mean square error), Euclidean distance'
 
