@@ -58,14 +58,15 @@ Netden = function(ws,X,Z,nfirm,tau1,tau2,lambda,n,nz,nam,NP){
     total.in.b[i,] = rowSums(abs(con[, , i]))
   }
   total.in.all = rowSums(total.in.b);
-
+  colnames(total.in.b) = paste0("total.in.",nam)
   # out-degree  
   total.out.b = matrix(0,rpd,cpd);
   for (i in 1:rpd) {
     total.out.b[i,] = colSums(abs(con[, , i]))
    }
   total.out.all = rowSums(total.out.b);
-
+  colnames(total.out.b) = paste0("total.out.",nam)
+  
   tc_out = cbind(total.in.b, total.out.b,total.in.all,total.out.all)
   tc_group = tc_out;
   write.csv(tc_group, file = paste0("total_in_and_out_idio_",ws,".csv"), row.names = FALSE)
