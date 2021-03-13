@@ -2,13 +2,14 @@
 
 #Name: MAWT_MainCode 
 
-#Published in : MAWTROLL
+#Published in : ROLLMAWT
 
 #Description : 'The main code for the empirical section. In this part, we run 
 #                a network model,high-dimension quantile regression based on
 #                the LASSO technic (hereafter, HQR-LASSO),for tail risk using
 #                optimal rolling window method with MAWT algorithm'
-
+#                Main code files are 'MAWT_MainCode.R' and 'Figure.R'
+   
 # 
 #Keywords : quantile regression,dimension reduction, tail risk, optimal rolling window method
 
